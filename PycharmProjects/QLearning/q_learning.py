@@ -42,7 +42,7 @@ def route(starting_location, ending_location):
 
     route = [starting_location]
     next_location = starting_location
-    while (next_location != ending_location):
+    while next_location != ending_location:
         starting_state = state.location_to_state[starting_location]
         next_state = np.argmax(Q[starting_state,])
         next_location = state_to_location[next_state]
