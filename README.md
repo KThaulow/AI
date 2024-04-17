@@ -1,1 +1,1 @@
-# HomeAssistant
+# AI Projects
