@@ -9,7 +9,6 @@ import torch.autograd as autograd
 from torch.autograd import Variable
 from collections import deque, namedtuple
 
-
 # Part 1 - Building the AI
 # Creating the architecture of the Neural Network
 class Network(nn.Module):
@@ -30,5 +29,3 @@ class Network(nn.Module):
         x = self.fc2(x)  # Propagate the signal from first fully connected layer to the second fully connected layer
         x = F.relu(x)
         return self.fc3(x)
-
-#Part 2  - Training the AI
