@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d932ddfe-8af6-4879-aead-bcfedf330f72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../DeepQLearning_LunarLanding/Agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DeepQLearning_LunarLanding/AgentTrainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DeepQLearning_LunarLanding/ReplayMemory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DeepQLearning_LunarLanding/DeepQAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DeepQLearning_LunarLanding/Network.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeepQLearning_LunarLanding/Agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DeepQLearning_LunarLanding/Agent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +34,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.AgentTrainer.executor": "Debug",
-    "Python.DeepQAgent (1).executor": "Run",
-    "Python.DeepQAgent.executor": "Run",
-    "Python.ReplayMemory.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/KristianThaulow/Documents/GitHub/AI/PycharmProjects/DeepQLearning",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.AgentTrainer.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.DeepQAgent (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.DeepQAgent.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ReplayMemory.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/KristianThaulow/Documents/GitHub/AI/PycharmProjects/DeepQLearning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.ReplayMemory">
     <configuration name="AgentTrainer" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepQLearning_LunarLanding" />
@@ -179,7 +176,8 @@
       <workItem from="1713373643393" duration="952000" />
       <workItem from="1713374675199" duration="26000" />
       <workItem from="1713374702092" duration="1259000" />
-      <workItem from="1713423738210" duration="3530000" />
+      <workItem from="1713423738210" duration="3555000" />
+      <workItem from="1713511194778" duration="1958000" />
     </task>
     <servers />
   </component>
