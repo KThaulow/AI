@@ -28,7 +28,7 @@ class Agent:
                 experiences = self.memory.sample(100)
                 self.learn(experiences, discount_factor)
 
-    def act(self, state, epsilon: float):
+    def act(self, state, epsilon = 0.1):
         """help the agent choose an action from the local q network which will forward propagate the state to return the action values"""
         state = torch.from_numpy(state).float().unsqueeze(0).to(self.device)  # Unsqueeze -> Add extra dimension which is the batch. Which batch this state belongs to
         self.local_qnetwork.eval() # set in evaluation mode

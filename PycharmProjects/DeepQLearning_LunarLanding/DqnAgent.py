@@ -6,6 +6,8 @@ from Agent import Agent
 from AgentTrainer import state_size, number_actions, env
 import numpy as np
 
+from ModelVisualizer import show_video, show_video_of_model
+
 agent = Agent(state_size, number_actions)
 
 number_episodes = 2000
@@ -39,3 +41,5 @@ for episode in range(1, number_episodes + 1):
         torch.save(agent.local_qnetwork.state_dict(), 'checkpoint.pth')
         break
 
+show_video_of_model(agent, 'LunarLander-v2')
+show_video()

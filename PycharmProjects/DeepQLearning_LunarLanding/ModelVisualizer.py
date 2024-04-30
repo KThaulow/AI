@@ -3,7 +3,7 @@ import io
 import base64
 import imageio
 from IPython.display import HTML, display
-from gym.wrappers.monitoring.video_recorder import VideoRecorder
+import gymnasium as gym
 
 
 def show_video_of_model(agent, env_name):
@@ -19,10 +19,6 @@ def show_video_of_model(agent, env_name):
     env.close()
     imageio.mimsave('video.mp4', frames, fps=30)
 
-
-show_video_of_model(agent, 'LunarLander-v2')
-
-
 def show_video():
     mp4list = glob.glob('*.mp4')
     if len(mp4list) > 0:
@@ -35,6 +31,3 @@ def show_video():
              </video>'''.format(encoded.decode('ascii'))))
     else:
         print("Could not find video")
-
-
-show_video()
