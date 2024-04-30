@@ -46,7 +46,7 @@ class Agent:
     def learn(self, experiences, discount_factor):
         """ Update agents local q networks q values towards the target Q values based on sampled experiences from replay memory """
         states, next_states, actions, rewards, dones = experiences
-        next_q_targets = self.target_qnetwork(next_states, actions).detach().max(1)[0].unsqueeze(1) # 1 is the dimension of the actions, 0 is the max Q value, 1 is dimension of the batch
+        next_q_targets = self.target_qnetwork(next_states).detach().max(1)[0].unsqueeze(1) # 1 is the dimension of the actions, 0 is the max Q value, 1 is dimension of the batch
         q_targets = rewards + discount_factor * next_q_targets * (1 - dones) # formula for the Q targets of the next states
         q_expected = self.local_qnetwork(states).gather(1, actions)
         #  compute loss (cost function) between the expected and target Q calues
