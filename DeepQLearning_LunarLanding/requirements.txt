@@ -1,5 +1,6 @@
-gymnasium
-gymnasium[atari,accept-rom-license]
+ale-py
+#gymnasium
+#gymnasium[atari,accept-rom-license]
 #gymnasium[accept-rom-licence]
 #gymnasium[atari]
 
