@@ -1,7 +1,10 @@
 from collections import deque
 
+import torch
+
 from Agent import Agent
 from AgentTrainer import state_size, number_actions, env
+import numpy as np
 
 agent = Agent(state_size, number_actions)
 
@@ -27,3 +30,12 @@ for episode in range(1, number_episodes + 1):
 
     scores_on_100_episodes.append(score)
     epsilon = max(epsilon_ending_value, epsilon_decay_value * epsilon)
+
+    print('\rEpisode {}\tAverage Score: {:.2f}'.format(episode, np.mean(scores_on_100_episodes)), end="")
+    if episode % 100 == 0:
+        print('\rEpisode {}\tAverage Score: {:.2f}'.format(episode, np.mean(scores_on_100_episodes)))
+    if np.mean(scores_on_100_episodes) >= 200.0:
+        print('\nEnvironment solved in  {:d} episodes!\tAverage Score: {:.2f}'.format(episode - 100, np.mean(scores_on_100_episodes)))
+        torch.save(agent.local_qnetwork.state_dict(), 'checkpoint.pth')
+        break
+

@@ -7,6 +7,7 @@
     <list default="true" id="d932ddfe-8af6-4879-aead-bcfedf330f72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DeepQLearning_LunarLanding/DqnAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DeepQLearning_LunarLanding/DqnAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DeepQLearning_LunarLanding/ReplayMemory.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DeepQLearning_LunarLanding/ReplayMemory.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.DqnAgent">
+  <component name="RunManager" selected="Python.ReplayMemory">
     <configuration name="Agent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DeepQLearning_LunarLanding" />
       <option name="ENV_FILES" value="" />
@@ -171,9 +172,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ReplayMemory" />
         <item itemvalue="Python.DqnAgent" />
         <item itemvalue="Python.Agent" />
-        <item itemvalue="Python.ReplayMemory" />
         <item itemvalue="Python.AgentTrainer" />
         <item itemvalue="Python.Network" />
       </list>
@@ -203,7 +204,7 @@
       <workItem from="1713374675199" duration="26000" />
       <workItem from="1713374702092" duration="1259000" />
       <workItem from="1713423738210" duration="3555000" />
-      <workItem from="1713511194778" duration="4175000" />
+      <workItem from="1713511194778" duration="6193000" />
     </task>
     <servers />
   </component>
@@ -212,10 +213,10 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DeepQLearning$DeepQAgent__1_.coverage" NAME="DeepQAgent (1) Coverage Results" MODIFIED="1713374723046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeepQLearning$DqnAgent.coverage" NAME="DqnAgent Coverage Results" MODIFIED="1713514454164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DeepQLearning_LunarLanding" />
+    <SUITE FILE_PATH="coverage/DeepQLearning$DqnAgent.coverage" NAME="DqnAgent Coverage Results" MODIFIED="1713516023348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DeepQLearning_LunarLanding" />
     <SUITE FILE_PATH="coverage/DeepQLearning$AgentTrainer.coverage" NAME="AgentTrainer Coverage Results" MODIFIED="1713424254496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DeepQLearning_LunarLanding" />
     <SUITE FILE_PATH="coverage/DeepQLearning$DeepQAgent.coverage" NAME="DeepQAgent Coverage Results" MODIFIED="1713374890071" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DeepQLearning_LunarLanding" />
     <SUITE FILE_PATH="coverage/DeepQLearning$Agent.coverage" NAME="Agent Coverage Results" MODIFIED="1713514387481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DeepQLearning_LunarLanding" />
-    <SUITE FILE_PATH="coverage/DeepQLearning$ReplayMemory.coverage" NAME="ReplayMemory Coverage Results" MODIFIED="1713425946537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DeepQLearning_LunarLanding" />
+    <SUITE FILE_PATH="coverage/DeepQLearning$ReplayMemory.coverage" NAME="ReplayMemory Coverage Results" MODIFIED="1713516236745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DeepQLearning_LunarLanding" />
   </component>
 </project>

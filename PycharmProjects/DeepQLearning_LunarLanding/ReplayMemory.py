@@ -23,10 +23,10 @@ class ReplayMemory:
         # Move the stack of actions into the designated computing device (cpu/gpu)
         actions = torch.from_numpy(np.vstack([e[1] for e in experiences if e is not None])).long().to(self.device)
         # Move the stack of rewards into the designated computing device (cpu/gpu)
-        actions = torch.from_numpy(np.vstack([e[2] for e in experiences if e is not None])).float().to(self.device)
+        rewards = torch.from_numpy(np.vstack([e[2] for e in experiences if e is not None])).float().to(self.device)
         # Move the stack of next states into the designated computing device (cpu/gpu)
         next_states = torch.from_numpy(np.vstack([e[3] for e in experiences if e is not None])).float().to(self.device)
         # Move the stack of dones (bools) into the designated computing device (cpu/gpu)
         dones = torch.from_numpy(np.vstack([e[4] for e in experiences if e is not None]).astype(np.uint8)).float().to(self.device)
-        return states, next_states, actions, dones
+        return states, next_states, actions, rewards, dones
 
