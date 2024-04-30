@@ -1,3 +1,9 @@
 gymnasium
-gymnasium[atari, accept-rom-license]
-gymnasium[box2d]
+gymnasium[atari,accept-rom-license]
+#gymnasium[accept-rom-licence]
+#gymnasium[atari]
+
+
+#gymnasium[box2d]
+#numpy
+#torch
